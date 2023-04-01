@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+
+.topo {
+    margin: 44px 0 144px 76px;
+}
+
+a {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.button-header {
+    margin: 0 0;
+    width: 130px;
+    height: 41px;
+    background: #665AE1;
+    border-radius: 20.5px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-left: 23px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-left {
+    display: inline-block;
+    margin: 0 86px 183px 125px;
+}
+
+.container-right {
+    display: inline-block;
+    position: absolute;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    height: 87px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin: 32px 0 60px 0;
+}
+
+.button-right {
+    margin: 0 0;
+    width: 239px;
+    height: 64px;
+    background: #ADFF00;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    cursor: pointer;
+}
+
+a:hover {
+    opacity: .8;
+    color: blue;
+}
+
+a:active {
+    opacity: .4;
+}
+
+button:hover {
+    opacity: .8;
+}
+
+button:active {
+    opacity: .4;
+}
+
+@media  screen and (max-width: 800px) {
+    .topo {
+        display: none;
+    }
+    
+    a {
+        display: none;
+    }
+    
+    .container-left {
+        margin: 149px 22px 24px 14px;
+
+
+    }
+
+    img {
+        width: 354px;
+        height: 317px;
+    }
+
+    .container-right {
+        display: block;
+
+    }
+
+    h1 {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 61px;
+        color: #515151;
+         margin: auto 64px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 37px;
+        margin: 7px 79px;
+    }
+
+    p { 
+        display: none;
+    }
+
+    .button-right {
+        margin: 17px 75px;
+    }
+
+
+
+}
+    
+
+
+
+   
